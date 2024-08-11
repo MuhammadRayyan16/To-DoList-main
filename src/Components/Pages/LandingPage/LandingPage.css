@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&family=Patrick+Hand&family=Permanent+Marker&display=swap');
+
+.conteiner-LandingPage {    
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-LandingPage {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.content-LandingPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border: 4px solid white;
+    width: 750px;
+    height: 600px;
+}
+
+.content-LandingPage:hover {
+    border: 10px solid white;
+}
+
+.titulo-LandingPage{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 6rem;
+    color: white;
+}
+
+.infoTexto-LandingPage {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    color: white;
+}
+.marcador-infoTexto-LandingPage{
+    text-align: center;
+    font-style: italic;
+    font-size: 2,5rem;
+    cursor: pointer;
+}
+
+.butoes-LandingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;    
+}
+.btn-SignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Patrick Hand", cursive;
+    color: #171429;
+    cursor: pointer; 
+    background-color: #ffffff;
+    }
+            
+    .btn-SignUp a {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Patrick Hand", cursive;
+    color: #171429;
+    text-decoration: none;
+    }
+
+    .btn-SignUp:hover {
+        background-color: #9584f8;
+    }
+    .btn-SignIn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 5rem;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: "Patrick Hand", cursive;
+        color: #ffffff;
+        cursor: pointer; 
+        background-color: #171429;
+        border: 3px solid white;
+        }
+                
+        .btn-SignIn a {
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: "Patrick Hand", cursive;
+        color: #ffffff;
+        text-decoration: none;
+        }
+    
+        .btn-SignIn:hover {
+            background-color: #362f5d;
+        }
+
+        .linkteste {
+            color: red;
+        }
+
+        @media (max-width:800px) {
+
+            .content-LandingPage {
+              border: none;
+            }
+            .content-LandingPage:hover {
+                border: none;
+            }
+            .logomarca-LandingPage {
+                display: none;
+            }
+            .titulo-LandingPage{
+                font-size: 70px;
+            }
+            .butoes-LandingPage {
+                flex-direction: column;   
+            }
+            .infoTexto-LandingPage {
+                font-size: 36px;
+            }
+            .marcador-infoTexto-LandingPage{
+                font-size: 24px;
+            }
+            
+            
+        }

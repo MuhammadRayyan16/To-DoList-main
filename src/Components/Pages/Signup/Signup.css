@@ -1,0 +1,85 @@
+
+.page-signUp {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    gap: 2rem;
+}
+
+.container-signUp:hover{
+    border: 10px solid white;
+}
+
+.btn-home {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #171429;
+}
+.subtitulo-signUp {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.butoes-signUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-signUp {
+    color: #171429;
+    cursor: pointer; 
+    background-color: #ffffff;  
+}
+.btn-signUp a {
+    font-size: 2rem;
+    font-style: normal;
+    font-family: "Patrick Hand", cursive;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-signUp:hover {
+    background-color: #9584f8;
+    width: 16rem;
+    height: 4rem;
+}
+
+@media (max-width:800px) {
+   
+    .container-signUp {
+        width: 350px;
+        height: 800px;
+        margin: 0;
+        padding: 0;
+        gap: 50px;
+    }
+
+    .butoes-signUp {
+        flex-direction: column;
+    }
+
+    .container-signUp:hover{
+        border: none;
+    }
+}

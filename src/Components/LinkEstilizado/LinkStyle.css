@@ -1,0 +1,29 @@
+.divcontent-link { 
+    position: relative;
+    display: inline-block; 
+}
+
+.divcontent-link a:hover {
+    color: #ffffff;   
+    
+}
+.divcontent-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #514887 50%, transparent 50%);
+    z-index: 0;     
+    transition: all 0.3s ease; 
+    opacity: 0; 
+}
+.divcontent-link:hover::before {
+    opacity: 1;
+}
+.divcontent-link a {
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}

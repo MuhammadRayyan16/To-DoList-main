@@ -1,0 +1,22 @@
+.inputsSignUp {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (max-width:800px) {
+    .inputsSignUp {
+        font-size: 1rem;
+    }
+    form {
+        width: 300px;
+        gap: 1rem;
+    }
+}

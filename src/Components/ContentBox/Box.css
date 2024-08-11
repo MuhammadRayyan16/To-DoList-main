@@ -1,0 +1,12 @@
+.contentBox {
+    border: 4px solid white;
+}
+
+.contentBox:hover {
+    border: 10px solid white;
+}
+.close_icon {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}

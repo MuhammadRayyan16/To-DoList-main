@@ -1,0 +1,29 @@
+.icon_X{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: 48px;
+}
+.iconX{
+    width: 48px;
+    cursor: pointer;
+}
+
+.iconX:hover{
+    width: 50px;
+    cursor: pointer;
+}
+
+@media (max-width:800px) {
+    .icon_X{
+        display: flex;
+        justify-content: flex-end;
+        width: 300px;
+        height: 24px;
+    }
+    .iconX{
+        width: 24px;
+    }
+}
+
+

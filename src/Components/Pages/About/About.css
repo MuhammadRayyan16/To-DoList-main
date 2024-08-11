@@ -1,0 +1,86 @@
+.conteiner-About {    
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contentBox-About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border: 4px solid white;
+    width: 900px;
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.contentBox-About:hover {
+   border: 10px solid white;
+}
+.titulo-about{
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.paragrafo-About{
+    color: white;
+    font-size: 2rem;
+    text-align: justify;
+    font-family: "Patrick Hand", cursive; 
+    padding: 2%;
+    margin: 0;
+}
+.developes {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Patrick Hand", cursive; 
+    padding: 0;
+    margin: 0;
+}
+.equipe-About {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Patrick Hand", cursive; 
+    padding: 0;
+    margin: 0;  
+}
+
+.btnReturn {
+    font-family: "Patrick Hand", cursive; 
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+    width: 12rem;
+    height: 3rem;
+}
+.btnReturn a{
+    text-decoration: none;
+}
+.btnReturn a:visited {    
+    color: #ffffff;
+}
+.btnReturn:hover {
+    border: 5px solid white;
+    background-color: #271e5c;
+}
+
+.contentMembro-link {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
